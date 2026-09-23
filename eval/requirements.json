@@ -1,0 +1,93 @@
+{
+ "students": 5,
+ "groups_compared": 35,
+ "groups_agreed": 34,
+ "per_student": {
+  "T00": {
+   "groups": 7,
+   "agreed": 6,
+   "agreement": 0.8571428571428571
+  },
+  "T01": {
+   "groups": 7,
+   "agreed": 7,
+   "agreement": 1.0
+  },
+  "T02": {
+   "groups": 7,
+   "agreed": 7,
+   "agreement": 1.0
+  },
+  "T03": {
+   "groups": 7,
+   "agreed": 7,
+   "agreement": 1.0
+  },
+  "T04": {
+   "groups": 7,
+   "agreed": 7,
+   "agreement": 1.0
+  }
+ },
+ "disagreements": [
+  {
+   "student_id": "T00",
+   "group": "CS Core",
+   "audit_satisfied": true,
+   "audit_remaining": [],
+   "engine_satisfied": false,
+   "engine_remaining": [
+    "CS 1301",
+    "CS 1331",
+    "CS 1332",
+    "CS 2050",
+    "CS 2340",
+    "CS 3510"
+   ],
+   "engine_reason": "6 of 7 children unsatisfied",
+   "catalog_text": "(no catalog text stored on this node)",
+   "engine_parse": {
+    "kind": "group",
+    "title": "CS Core",
+    "operator": "all",
+    "citation": {
+     "catalog": "2026-27 Georgia Tech Catalog",
+     "page": 214
+    },
+    "children": [
+     {
+      "kind": "course",
+      "code": "CS 1301"
+     },
+     {
+      "kind": "course",
+      "code": "CS 1331"
+     },
+     {
+      "kind": "course",
+      "code": "CS 1332"
+     },
+     {
+      "kind": "course",
+      "code": "CS 2050"
+     },
+     {
+      "kind": "course",
+      "code": "CS 2110"
+     },
+     {
+      "kind": "course",
+      "code": "CS 2340"
+     },
+     {
+      "kind": "course",
+      "code": "CS 3510"
+     }
+    ]
+   }
+  }
+ ],
+ "missing_trees": [],
+ "agreement": 0.9714285714285714,
+ "release_ok": false
+}

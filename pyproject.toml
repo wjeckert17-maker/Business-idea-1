@@ -1,0 +1,26 @@
+[project]
+name = "course-ingest"
+version = "0.1.0"
+description = "Pull a term of course sections from a university class-search system into the course-planning schema."
+requires-python = ">=3.9"
+dependencies = [
+  "requests>=2.31",
+  "psycopg[binary]>=3.1",
+  "tomli>=2.0; python_version < '3.11'",
+  "numpy>=1.24",
+  "xlrd>=2.0",
+  "ortools>=9.8",
+  "jsonschema>=4",
+  "pypdf>=4",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7"]
+embeddings = ["sentence-transformers>=2.2"]
+
+[project.scripts]
+course-ingest = "course_ingest.cli:main"
+canon = "canon.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

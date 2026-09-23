@@ -1,0 +1,6 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    { "name": "planner-web", "runtimeExecutable": "sh", "runtimeArgs": ["web/dev.sh"], "port": 3000 }
+  ]
+}

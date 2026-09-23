@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+:root { --bg: #fafaf7; --fg: #17171a; --muted: #5f6368; --line: #e3e3dc; --accent: #1f5f8b; --warn: #8a5a00; }
+@media (prefers-color-scheme: dark) { :root { --bg: #131316; --fg: #ececea; --muted: #a2a5ab; --line: #2c2c31; --accent: #7fb6e0; --warn: #e0b24d; } }
+html { color-scheme: light dark; }
+body { background: var(--bg); color: var(--fg); font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif; -webkit-tap-highlight-color: transparent; }
+.card { background: color-mix(in srgb, var(--bg) 92%, var(--fg) 8%); border: 1px solid var(--line); border-radius: 14px; }
+.muted { color: var(--muted); }
+.cite { color: var(--accent); font-size: 0.8rem; }
+.warn { color: var(--warn); }
+.btn { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding: 0 1.1rem; border-radius: 12px; background: var(--accent); color: white; font-weight: 600; }
+.btn-secondary { background: transparent; color: var(--accent); border: 1px solid var(--accent); }
+input[type=range] { width: 100%; accent-color: var(--accent); }
+.snap { scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch; }
+.snap > * { scroll-snap-align: center; }

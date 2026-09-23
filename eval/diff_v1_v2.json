@@ -1,0 +1,145 @@
+{
+ "a": {
+  "version": "v1",
+  "created_at": "2026-09-23T23:13:30+00:00",
+  "code_version": "evalx-0.1",
+  "scoring_config": {
+   "prior_strength_m": 15.0,
+   "decay_lambda": 0.3,
+   "as_of": null,
+   "weights": {
+    "grades": 1.0,
+    "sentiment": 1.0,
+    "syllabus": 0.5
+   },
+   "quality_components": {
+    "sentiment_rating_residual": 1.0,
+    "sentiment_would_take_again_residual": 0.5,
+    "syllabus_recorded_lectures": 0.3,
+    "syllabus_attendance_required": -0.2
+   },
+   "difficulty_components": {
+    "grade_dfw_rate": 1.0,
+    "grade_mean_gpa_inverted": 1.0,
+    "sentiment_difficulty": 0.7,
+    "syllabus_exam_weight": 0.3
+   },
+   "gpa_points": {
+    "A+": 4.0,
+    "A": 4.0,
+    "A-": 3.7,
+    "B+": 3.3,
+    "B": 3.0,
+    "B-": 2.7,
+    "C+": 2.3,
+    "C": 2.0,
+    "C-": 1.7,
+    "D+": 1.3,
+    "D": 1.0,
+    "D-": 0.7,
+    "F": 0.0
+   },
+   "dfw_letters": [
+    "D+",
+    "D",
+    "D-",
+    "F"
+   ],
+   "min_dept_sections_for_percentile": 2
+  },
+  "weights": null,
+  "corpus_hash": "4c69311d18f5",
+  "term": {
+   "code": "202608",
+   "name": "Fall 2026",
+   "institution": "Georgia Institute of Technology"
+  }
+ },
+ "b": {
+  "version": "v2-m40-nosent",
+  "created_at": "2026-09-23T23:13:31+00:00",
+  "code_version": "evalx-0.1",
+  "scoring_config": {
+   "prior_strength_m": 40.0,
+   "decay_lambda": 0.3,
+   "as_of": null,
+   "weights": {
+    "grades": 1.0,
+    "sentiment": 0.0,
+    "syllabus": 0.5
+   },
+   "quality_components": {
+    "sentiment_rating_residual": 1.0,
+    "sentiment_would_take_again_residual": 0.5,
+    "syllabus_recorded_lectures": 0.3,
+    "syllabus_attendance_required": -0.2
+   },
+   "difficulty_components": {
+    "grade_dfw_rate": 1.0,
+    "grade_mean_gpa_inverted": 1.0,
+    "sentiment_difficulty": 0.7,
+    "syllabus_exam_weight": 0.3
+   },
+   "gpa_points": {
+    "A+": 4.0,
+    "A": 4.0,
+    "A-": 3.7,
+    "B+": 3.3,
+    "B": 3.0,
+    "B-": 2.7,
+    "C+": 2.3,
+    "C": 2.0,
+    "C-": 1.7,
+    "D+": 1.3,
+    "D": 1.0,
+    "D-": 0.7,
+    "F": 0.0
+   },
+   "dfw_letters": [
+    "D+",
+    "D",
+    "D-",
+    "F"
+   ],
+   "min_dept_sections_for_percentile": 2
+  },
+  "weights": null,
+  "corpus_hash": "4c69311d18f5",
+  "term": {
+   "code": "202608",
+   "name": "Fall 2026",
+   "institution": "Georgia Institute of Technology"
+  }
+ },
+ "warnings": [],
+ "aggregate_delta": {
+  "course_hit_rate": 0.0,
+  "section_hit_rate": 0.0,
+  "mean_my_gpa": 0.1779,
+  "mean_my_conflicts": 0.0
+ },
+ "sanity_delta": {
+  "r_raw_rating_vs_gpa": null,
+  "r_adjusted_quality_vs_gpa": null
+ },
+ "students_common": 12,
+ "top1_changed": [
+  "S000",
+  "S001",
+  "S002",
+  "S003",
+  "S004",
+  "S005",
+  "S006",
+  "S007",
+  "S008",
+  "S009",
+  "S010",
+  "S011"
+ ],
+ "top5_changed": 12,
+ "hits_gained": [],
+ "hits_lost": [],
+ "section_quality_rank_correlation": 0.10636322124605169,
+ "verdict": "better on mean_my_gpa; worse on nothing; 12 of 12 students get a different #1"
+}

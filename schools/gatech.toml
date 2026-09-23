@@ -1,0 +1,38 @@
+# Georgia Tech — Banner 9 Student Registration Self-Service.
+# Copy this file for another Banner school; change the URL, slug and code maps.
+
+[institution]
+slug     = "gatech"
+name     = "Georgia Institute of Technology"
+timezone = "America/New_York"
+
+[source]
+adapter  = "banner9"
+base_url = "https://registration.banner.gatech.edu/StudentRegistrationSsb/ssb"
+# Shown in the User-Agent so the site owner can reach a human.
+contact  = "wjeckert17@icloud.com"
+page_size = 500
+
+[catalog_year]
+# Academic year begins in this month; a Fall 2026 term maps to catalog "2026-2027".
+start_month = 8
+
+[courses]
+# "hundreds" (MATH 220 -> level 200), "thousands" (CS 1301 -> level 1000), or "auto" by digit count.
+level_style = "auto"
+
+# Section-level instructional method codes -> modality. Anything not listed is reported
+# in the run summary under unmapped_codes so you can extend this.
+[modality.instructional_method]
+F = "online_async"          # "Fully at a Distance (BOR)"
+
+# Per-meeting schedule type codes -> modality of that meeting block.
+[modality.meeting_schedule_type]
+A = "in_person"
+E = "in_person"
+R = "online_sync"           # remote synchronous
+V = "online_async"          # video
+H = "hybrid"
+S = "in_person"
+F = "online_async"
+O = "online_async"

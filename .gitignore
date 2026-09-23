@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+web/node_modules/
+web/.next/
+web/dev.sh
+course-planner.zip
+course-ingest.zip
+*.npz
+*.db
+failures-*.jsonl
+reqx_cache/
+extension/package.json

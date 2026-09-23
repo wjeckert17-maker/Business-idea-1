@@ -1,0 +1,1415 @@
+{
+ "meta": {
+  "version": "v1",
+  "created_at": "2026-09-23T23:13:30+00:00",
+  "code_version": "evalx-0.1",
+  "scoring_config": {
+   "prior_strength_m": 15.0,
+   "decay_lambda": 0.3,
+   "as_of": null,
+   "weights": {
+    "grades": 1.0,
+    "sentiment": 1.0,
+    "syllabus": 0.5
+   },
+   "quality_components": {
+    "sentiment_rating_residual": 1.0,
+    "sentiment_would_take_again_residual": 0.5,
+    "syllabus_recorded_lectures": 0.3,
+    "syllabus_attendance_required": -0.2
+   },
+   "difficulty_components": {
+    "grade_dfw_rate": 1.0,
+    "grade_mean_gpa_inverted": 1.0,
+    "sentiment_difficulty": 0.7,
+    "syllabus_exam_weight": 0.3
+   },
+   "gpa_points": {
+    "A+": 4.0,
+    "A": 4.0,
+    "A-": 3.7,
+    "B+": 3.3,
+    "B": 3.0,
+    "B-": 2.7,
+    "C+": 2.3,
+    "C": 2.0,
+    "C-": 1.7,
+    "D+": 1.3,
+    "D": 1.0,
+    "D-": 0.7,
+    "F": 0.0
+   },
+   "dfw_letters": [
+    "D+",
+    "D",
+    "D-",
+    "F"
+   ],
+   "min_dept_sections_for_percentile": 2
+  },
+  "weights": null,
+  "corpus_hash": "4c69311d18f5",
+  "term": {
+   "code": "202608",
+   "name": "Fall 2026",
+   "institution": "Georgia Institute of Technology"
+  }
+ },
+ "section_scores": {
+  "92681": {
+   "quality": -1.3762580603681205,
+   "difficulty": 53.125,
+   "confidence": 0.9314460037538318
+  },
+  "94343": {
+   "quality": -0.19295001879223359,
+   "difficulty": 95.0,
+   "confidence": 0.9218580398806273
+  },
+  "81437": {
+   "quality": -0.11767405672015809,
+   "difficulty": 10.0,
+   "confidence": 0.8000421491151337
+  },
+  "90682": {
+   "quality": -0.14401939113693527,
+   "difficulty": 65.0,
+   "confidence": 0.8723612104321156
+  },
+  "84994": {
+   "quality": 0.9372563036272118,
+   "difficulty": 5.0,
+   "confidence": 0.7864585334280451
+  },
+  "92148": {
+   "quality": 0.9467631460192651,
+   "difficulty": 2.6315789473684212,
+   "confidence": 0.875710556586826
+  },
+  "92101": {
+   "quality": -0.6310775657738159,
+   "difficulty": 90.0,
+   "confidence": 0.759628668124037
+  },
+  "92684": {
+   "quality": -1.3762580603681205,
+   "difficulty": 53.125,
+   "confidence": 0.9314460037538318
+  },
+  "92695": {
+   "quality": 0.4878180822641184,
+   "difficulty": 16.666666666666668,
+   "confidence": 0.8857322083989672
+  },
+  "90537": {
+   "quality": -1.3671466284413873,
+   "difficulty": 70.0,
+   "confidence": 0.8860320433099453
+  },
+  "90527": {
+   "quality": 0.8281875459986955,
+   "difficulty": 90.0,
+   "confidence": 0.9093023552816735
+  },
+  "94081": {
+   "quality": 0.7065900705623527,
+   "difficulty": 65.78947368421052,
+   "confidence": 0.9234091182824506
+  },
+  "83719": {
+   "quality": -0.6412269211533538,
+   "difficulty": 15.0,
+   "confidence": 0.792561644248463
+  },
+  "85011": {
+   "quality": 0.20637753710121043,
+   "difficulty": 21.875,
+   "confidence": 0.9238139109436105
+  },
+  "86984": {
+   "quality": -0.8562848254643322,
+   "difficulty": 76.3157894736842,
+   "confidence": 0.8667366508789509
+  },
+  "85955": {
+   "quality": -0.9554479399347074,
+   "difficulty": 81.57894736842105,
+   "confidence": 0.7920673511269433
+  },
+  "94346": {
+   "quality": -0.19295001879223359,
+   "difficulty": 95.0,
+   "confidence": 0.9218580398806273
+  },
+  "95026": {
+   "quality": 2.754779833732504,
+   "difficulty": 96.875,
+   "confidence": 0.8870410762191732
+  },
+  "83558": {
+   "quality": -2.7744320920926837,
+   "difficulty": 59.375,
+   "confidence": 0.8727870579457481
+  },
+  "83436": {
+   "quality": -0.14989172046865262,
+   "difficulty": 27.77777777777778,
+   "confidence": 0.8800269441500703
+  },
+  "85368": {
+   "quality": -0.13620449141957508,
+   "difficulty": 83.33333333333333,
+   "confidence": 0.8730176970008099
+  },
+  "90476": {
+   "quality": 2.5340874394865986,
+   "difficulty": 16.666666666666668,
+   "confidence": 0.9265917742517511
+  },
+  "95538": {
+   "quality": 0.6922826279891664,
+   "difficulty": 55.26315789473684,
+   "confidence": 0.8722149017121996
+  },
+  "88894": {
+   "quality": 0.43793515394161964,
+   "difficulty": 35.0,
+   "confidence": 0.8929261474652025
+  },
+  "90526": {
+   "quality": 0.8281875459986955,
+   "difficulty": 90.0,
+   "confidence": 0.9093023552816735
+  },
+  "80167": {
+   "quality": -2.0689598123047896,
+   "difficulty": 60.526315789473685,
+   "confidence": 0.8872925830628194
+  },
+  "93837": {
+   "quality": -2.0631975092348496,
+   "difficulty": 10.0,
+   "confidence": 0.7882828924474653
+  },
+  "89268": {
+   "quality": -0.3800976172107704,
+   "difficulty": 65.625,
+   "confidence": 0.9335491354324166
+  },
+  "86046": {
+   "quality": -1.415533912963985,
+   "difficulty": 92.10526315789474,
+   "confidence": 0.9242347141084201
+  },
+  "85973": {
+   "quality": 0.024648927501127474,
+   "difficulty": 9.375,
+   "confidence": 0.9279270719793272
+  },
+  "81065": {
+   "quality": -0.540976205224491,
+   "difficulty": 28.125,
+   "confidence": 0.9326684443623361
+  },
+  "85161": {
+   "quality": -1.4732586708957682,
+   "difficulty": 70.0,
+   "confidence": 0.779534501416105
+  },
+  "81069": {
+   "quality": 0.8281875459986955,
+   "difficulty": 90.0,
+   "confidence": 0.9093023552816735
+  },
+  "83721": {
+   "quality": -1.8317639697201473,
+   "difficulty": 75.0,
+   "confidence": 0.8009513092447355
+  },
+  "92569": {
+   "quality": -1.0702406217903695,
+   "difficulty": 25.0,
+   "confidence": 0.8856158793357689
+  },
+  "88515": {
+   "quality": 3.1580291658197837,
+   "difficulty": 5.555555555555555,
+   "confidence": 0.9148729532366126
+  },
+  "94334": {
+   "quality": 1.1652351866479445,
+   "difficulty": 85.0,
+   "confidence": 0.8799670827950745
+  },
+  "92000": {
+   "quality": -0.4280464016832707,
+   "difficulty": 50.0,
+   "confidence": 0.7920668197565499
+  },
+  "89430": {
+   "quality": 0.6961202484758171,
+   "difficulty": 30.0,
+   "confidence": 0.7880676231145087
+  },
+  "94323": {
+   "quality": -1.2407406819481048,
+   "difficulty": 90.0,
+   "confidence": 0.9044147428730472
+  },
+  "81062": {
+   "quality": -0.4717085648919789,
+   "difficulty": 3.125,
+   "confidence": 0.9224931926423103
+  },
+  "89219": {
+   "quality": 1.4611780926507771,
+   "difficulty": 61.111111111111114,
+   "confidence": 0.9195479700110185
+  },
+  "87347": {
+   "quality": 1.313177846232211,
+   "difficulty": 55.0,
+   "confidence": 0.8937612683543638
+  },
+  "81063": {
+   "quality": -0.4717085648919789,
+   "difficulty": 3.125,
+   "confidence": 0.9224931926423103
+  },
+  "94485": {
+   "quality": -1.3671466284413873,
+   "difficulty": 70.0,
+   "confidence": 0.8860320433099453
+  },
+  "92728": {
+   "quality": 0.8310879125126639,
+   "difficulty": 97.36842105263158,
+   "confidence": 0.8712346754467349
+  },
+  "90843": {
+   "quality": -0.5955253790305189,
+   "difficulty": 83.33333333333333,
+   "confidence": 0.9120860863545298
+  },
+  "94040": {
+   "quality": 0.6191686807330944,
+   "difficulty": 86.84210526315789,
+   "confidence": 0.7900360973145879
+  },
+  "83741": {
+   "quality": 0.3584644564842887,
+   "difficulty": 90.625,
+   "confidence": 0.9171706574784766
+  },
+  "82579": {
+   "quality": -0.8680893406093736,
+   "difficulty": 46.875,
+   "confidence": 0.8457348185693349
+  },
+  "84563": {
+   "quality": 1.255278357151716,
+   "difficulty": 94.44444444444444,
+   "confidence": 0.9130795425443571
+  },
+  "88509": {
+   "quality": 1.5142909668731173,
+   "difficulty": 71.875,
+   "confidence": 0.9302424644002288
+  },
+  "95212": {
+   "quality": 1.0701074167341327,
+   "difficulty": 50.0,
+   "confidence": 0.8965105213513331
+  },
+  "90501": {
+   "quality": -2.0743766440770264,
+   "difficulty": 7.894736842105263,
+   "confidence": 0.8734319396250113
+  },
+  "94147": {
+   "quality": 0.8228208103442013,
+   "difficulty": 50.0,
+   "confidence": 0.8746039029476294
+  },
+  "95269": {
+   "quality": -1.4543714974856454,
+   "difficulty": 71.05263157894737,
+   "confidence": 0.7977828103527795
+  },
+  "84704": {
+   "quality": 0.35079392420544586,
+   "difficulty": 84.375,
+   "confidence": 0.8765895194677962
+  },
+  "84247": {
+   "quality": 0.22970157352874715,
+   "difficulty": 28.94736842105263,
+   "confidence": 0.935613662574658
+  },
+  "90615": {
+   "quality": 1.20065792738444,
+   "difficulty": 15.625,
+   "confidence": 0.7751231114548627
+  },
+  "86743": {
+   "quality": -0.9273845889070632,
+   "difficulty": 44.73684210526316,
+   "confidence": 0.9296003776398427
+  },
+  "89633": {
+   "quality": -0.8403619059217466,
+   "difficulty": 23.68421052631579,
+   "confidence": 0.8843041820673886
+  },
+  "94345": {
+   "quality": -0.19295001879223359,
+   "difficulty": 95.0,
+   "confidence": 0.9218580398806273
+  },
+  "94350": {
+   "quality": 2.0784101828293893,
+   "difficulty": 10.0,
+   "confidence": 0.7557405248243373
+  },
+  "85025": {
+   "quality": -3.7388539404973793,
+   "difficulty": 40.625,
+   "confidence": 0.9229864408460081
+  },
+  "85328": {
+   "quality": 0.7956001866499808,
+   "difficulty": 39.473684210526315,
+   "confidence": 0.8812095450212191
+  },
+  "90647": {
+   "quality": 2.0552931396061154,
+   "difficulty": 30.0,
+   "confidence": 0.8477290959664578
+  },
+  "89591": {
+   "quality": -2.0569342941553974,
+   "difficulty": 38.888888888888886,
+   "confidence": 0.8723672607915894
+  },
+  "83757": {
+   "quality": -1.926129246761628,
+   "difficulty": 30.0,
+   "confidence": 0.9179584299364606
+  },
+  "94568": {
+   "quality": 1.003871601285802,
+   "difficulty": 50.0,
+   "confidence": 0.8742795284429838
+  },
+  "94355": {
+   "quality": -0.11493128375580403,
+   "difficulty": 45.0,
+   "confidence": 0.791277469307562
+  },
+  "85391": {
+   "quality": -2.153413980093266,
+   "difficulty": 34.375,
+   "confidence": 0.8669158545313455
+  },
+  "85619": {
+   "quality": 2.6384641519106267,
+   "difficulty": 13.157894736842104,
+   "confidence": 0.9290044460183914
+  },
+  "83083": {
+   "quality": 3.3252059454078218,
+   "difficulty": 34.21052631578947,
+   "confidence": 0.9341820554590082
+  },
+  "94118": {
+   "quality": 3.066978794169049,
+   "difficulty": 78.125,
+   "confidence": 0.7974657975097295
+  },
+  "85364": {
+   "quality": -2.9128314448423285,
+   "difficulty": 50.0,
+   "confidence": 0.7943320132661459
+  },
+  "92187": {
+   "quality": 0.608100392794284,
+   "difficulty": 18.42105263157895,
+   "confidence": 0.8763166223970632
+  },
+  "94716": {
+   "quality": -1.415533912963985,
+   "difficulty": 92.10526315789474,
+   "confidence": 0.9242347141084201
+  },
+  "92020": {
+   "quality": -1.3469887666099123,
+   "difficulty": 70.0,
+   "confidence": 0.9311506801500273
+  },
+  "90866": {
+   "quality": 0.2937836670999013,
+   "difficulty": 72.22222222222223,
+   "confidence": 0.7520115460804778
+  },
+  "92517": {
+   "quality": 0.8687826966263471,
+   "difficulty": 50.0,
+   "confidence": 0.8885043739542846
+  }
+ },
+ "scoring_sanity": {
+  "sections_with_both": 72,
+  "r_raw_rating_vs_gpa": 0.5460768122075357,
+  "r_adjusted_quality_vs_gpa": -0.022759448899206877,
+  "r_would_take_again_raw_vs_gpa": 0.5460113016998515,
+  "leniency_r_squared": 0.28070073005284524,
+  "verdict": "adjustment works: raw r=0.55 \u2192 adjusted r=-0.02",
+  "adjustment_ok": true,
+  "skew": [
+   {
+    "attribute": "group",
+    "group": "A",
+    "n": 36,
+    "mean_quality": 0.16646036637917172,
+    "mean_difficulty": 47.91504223521767,
+    "quality_delta_vs_rest": 0.33292073275834344,
+    "p_value_quality": 0.3538230884557721
+   },
+   {
+    "attribute": "group",
+    "group": "B",
+    "n": 36,
+    "mean_quality": -0.16646036637917172,
+    "mean_difficulty": 52.08495776478232,
+    "quality_delta_vs_rest": -0.33292073275834344,
+    "p_value_quality": 0.36031984007996004
+   }
+  ],
+  "skew_note": "skew audit over 72 labelled sections"
+ },
+ "schedules": {
+  "students": 12,
+  "course_hit_rate": 0.0,
+  "section_hit_rate": 0.0,
+  "mean_my_gpa": 3.3220362004629043,
+  "mean_their_gpa": 3.311174752662788,
+  "mean_my_conflicts": 0.0,
+  "mean_their_conflicts": 0.0,
+  "per_student": [
+   {
+    "student_id": "S000",
+    "their_courses": [
+     "CS 7641",
+     "ENGL 1101",
+     "ENGL 1102",
+     "MATH 4803"
+    ],
+    "their_crns": [
+     "81069",
+     "90615",
+     "94081",
+     "94485"
+    ],
+    "their_credits": 12.0,
+    "course_hit_rank": null,
+    "section_hit_rank": null,
+    "top_course_sets": [
+     [
+      "CS 6452",
+      "LMC 6753",
+      "MATH 7012",
+      "MATH 8803",
+      "PSYC 1101"
+     ],
+     [
+      "CS 6452",
+      "ENGL 1101",
+      "LMC 6753",
+      "MATH 7012",
+      "PSYC 1101"
+     ],
+     [
+      "CS 3790",
+      "CS 6452",
+      "MATH 7012",
+      "PSYC 1101"
+     ],
+     [
+      "CS 6452",
+      "LMC 6753",
+      "MATH 8803",
+      "PHYS 7147",
+      "PSYC 1101"
+     ],
+     [
+      "CS 6452",
+      "ENGL 1101",
+      "LMC 6753",
+      "PHYS 7147",
+      "PSYC 1101"
+     ]
+    ],
+    "top1_crns": [
+     "83083",
+     "87347",
+     "88515",
+     "94118",
+     "95026"
+    ],
+    "my_gpa": 3.1865307038850568,
+    "my_gpa_sections": 5,
+    "their_gpa": 3.3088726745971355,
+    "their_gpa_sections": 4,
+    "my_conflicts": 0,
+    "their_conflicts": 0,
+    "note": ""
+   },
+   {
+    "student_id": "S001",
+    "their_courses": [
+     "CS 4010",
+     "CS 4400",
+     "CS 6726",
+     "ECON 7022",
+     "ENGL 1101",
+     "HIST 2111",
+     "LMC 3403",
+     "MATH 3235",
+     "MATH 4317",
+     "MATH 4581",
+     "MATH 8305",
+     "PHYS 3123",
+     "PHYS 4604",
+     "PHYS 8803",
+     "PSYC 1101",
+     "PSYC 8080"
+    ],
+    "their_crns": [
+     "80167",
+     "81062",
+     "82579",
+     "84247",
+     "85161",
+     "85364",
+     "85973",
+     "88509",
+     "89219",
+     "89633",
+     "90476",
+     "90647",
+     "90843",
+     "92101",
+     "94323",
+     "94345"
+    ],
+    "their_credits": 45.0,
+    "course_hit_rank": null,
+    "section_hit_rank": null,
+    "top_course_sets": [
+     [
+      "CS 3790",
+      "CS 4010",
+      "CS 6452",
+      "CS 6726",
+      "CS 8803",
+      "ECON 4351",
+      "ENGL 1101",
+      "ENGL 1102",
+      "MATH 4581",
+      "MATH 4803",
+      "MATH 7012",
+      "MATH 8305",
+      "MATH 8803",
+      "PSYC 1101",
+      "PSYC 8080"
+     ],
+     [
+      "CS 3790",
+      "CS 4010",
+      "CS 6452",
+      "CS 6726",
+      "CS 8803",
+      "ENGL 1101",
+      "ENGL 1102",
+      "HIST 2111",
+      "MATH 4581",
+      "MATH 4803",
+      "MATH 7012",
+      "MATH 8305",
+      "MATH 8803",
+      "PSYC 1101",
+      "PSYC 8080"
+     ],
+     [
+      "CS 3790",
+      "CS 4010",
+      "CS 6452",
+      "CS 6726",
+      "CS 8803",
+      "ENGL 1101",
+      "ENGL 1102",
+      "MATH 4581",
+      "MATH 4803",
+      "MATH 7012",
+      "MATH 8305",
+      "MATH 8803",
+      "PSYC 1101",
+      "PSYC 3005",
+      "PSYC 8080"
+     ],
+     [
+      "CS 3790",
+      "CS 4010",
+      "CS 6452",
+      "CS 6726",
+      "CS 8803",
+      "ECON 4351",
+      "ENGL 1101",
+      "ENGL 1102",
+      "MATH 4581",
+      "MATH 4803",
+      "MATH 8305",
+      "MATH 8803",
+      "PHYS 7147",
+      "PSYC 1101",
+      "PSYC 8080"
+     ],
+     [
+      "CS 3790",
+      "CS 4010",
+      "CS 6452",
+      "CS 6726",
+      "CS 8803",
+      "ENGL 1101",
+      "ENGL 1102",
+      "HIST 2111",
+      "MATH 4581",
+      "MATH 4803",
+      "MATH 8305",
+      "MATH 8803",
+      "PHYS 7147",
+      "PSYC 1101",
+      "PSYC 8080"
+     ]
+    ],
+    "top1_crns": [
+     "82579",
+     "83083",
+     "84247",
+     "85619",
+     "85973",
+     "88515",
+     "89430",
+     "89633",
+     "90615",
+     "90647",
+     "90843",
+     "94118",
+     "94568",
+     "95026",
+     "95212"
+    ],
+    "my_gpa": 3.3875386626374655,
+    "my_gpa_sections": 15,
+    "their_gpa": 3.3773367609287006,
+    "their_gpa_sections": 16,
+    "my_conflicts": 0,
+    "their_conflicts": 0,
+    "note": ""
+   },
+   {
+    "student_id": "S002",
+    "their_courses": [
+     "CS 2701",
+     "MATH 4317",
+     "MATH 4803"
+    ],
+    "their_crns": [
+     "81063",
+     "86743",
+     "90615"
+    ],
+    "their_credits": 9.0,
+    "course_hit_rank": null,
+    "section_hit_rank": null,
+    "top_course_sets": [
+     [
+      "CS 6452",
+      "LMC 6753",
+      "MATH 7012",
+      "PSYC 1101"
+     ],
+     [
+      "CS 6452",
+      "LMC 6753",
+      "PHYS 7147",
+      "PSYC 1101"
+     ],
+     [
+      "CS 6452",
+      "LMC 6753",
+      "MATH 8803",
+      "PSYC 1101"
+     ],
+     [
+      "CS 6452",
+      "ENGL 1101",
+      "LMC 6753",
+      "PSYC 1101"
+     ],
+     [
+      "CS 3790",
+      "CS 6452",
+      "PSYC 1101"
+     ]
+    ],
+    "top1_crns": [
+     "83083",
+     "87347",
+     "88515",
+     "94118"
+    ],
+    "my_gpa": 3.2728480932321173,
+    "my_gpa_sections": 4,
+    "their_gpa": 3.6051524764780805,
+    "their_gpa_sections": 3,
+    "my_conflicts": 0,
+    "their_conflicts": 0,
+    "note": ""
+   },
+   {
+    "student_id": "S003",
+    "their_courses": [
+     "ENGL 1102",
+     "MATH 4581",
+     "MATH 8305",
+     "PHYS 7147"
+    ],
+    "their_crns": [
+     "82579",
+     "85973",
+     "94350",
+     "94568"
+    ],
+    "their_credits": 11.0,
+    "course_hit_rank": null,
+    "section_hit_rank": null,
+    "top_course_sets": [
+     [
+      "CS 3790",
+      "CS 6452",
+      "MATH 7012",
+      "PSYC 1101"
+     ],
+     [
+      "CS 3790",
+      "CS 6452",
+      "PHYS 7147",
+      "PSYC 1101"
+     ],
+     [
+      "CS 3790",
+      "CS 6452",
+      "MATH 8803",
+      "PSYC 1101"
+     ],
+     [
+      "CS 3790",
+      "CS 6452",
+      "ENGL 1101",
+      "PSYC 1101"
+     ],
+     [
+      "CS 3790",
+      "HIST 2111",
+      "MATH 7012",
+      "PSYC 1101"
+     ]
+    ],
+    "top1_crns": [
+     "83083",
+     "85619",
+     "88515",
+     "94118"
+    ],
+    "my_gpa": 3.356453591238148,
+    "my_gpa_sections": 4,
+    "their_gpa": 3.5037496421542316,
+    "their_gpa_sections": 4,
+    "my_conflicts": 0,
+    "their_conflicts": 0,
+    "note": ""
+   },
+   {
+    "student_id": "S004",
+    "their_courses": [
+     "CS 6726",
+     "ENGL 1101",
+     "LMC 3403"
+    ],
+    "their_crns": [
+     "84247",
+     "90647",
+     "94346"
+    ],
+    "their_credits": 9.0,
+    "course_hit_rank": null,
+    "section_hit_rank": null,
+    "top_course_sets": [
+     [
+      "CS 6452",
+      "LMC 6753",
+      "MATH 7012",
+      "PSYC 1101"
+     ],
+     [
+      "CS 6452",
+      "LMC 6753",
+      "PHYS 7147",
+      "PSYC 1101"
+     ],
+     [
+      "CS 6452",
+      "LMC 6753",
+      "MATH 8803",
+      "PSYC 1101"
+     ],
+     [
+      "CS 6452",
+      "ENGL 1101",
+      "LMC 6753",
+      "PSYC 1101"
+     ],
+     [
+      "CS 3790",
+      "CS 6452",
+      "PSYC 1101"
+     ]
+    ],
+    "top1_crns": [
+     "83083",
+     "87347",
+     "88515",
+     "94118"
+    ],
+    "my_gpa": 3.2728480932321173,
+    "my_gpa_sections": 4,
+    "their_gpa": 3.303925229644722,
+    "their_gpa_sections": 3,
+    "my_conflicts": 0,
+    "their_conflicts": 0,
+    "note": ""
+   },
+   {
+    "student_id": "S005",
+    "their_courses": [
+     "CS 4010",
+     "ECON 4351",
+     "MATH 6001"
+    ],
+    "their_crns": [
+     "84704",
+     "89430",
+     "89633"
+    ],
+    "their_credits": 8.0,
+    "course_hit_rank": null,
+    "section_hit_rank": null,
+    "top_course_sets": [
+     [
+      "CS 3790",
+      "CS 6452",
+      "PSYC 1101"
+     ],
+     [
+      "CS 6452",
+      "MATH 7012",
+      "PSYC 1101"
+     ],
+     [
+      "CS 6452",
+      "PHYS 7147",
+      "PSYC 1101"
+     ],
+     [
+      "CS 3790",
+      "HIST 2111",
+      "PSYC 1101"
+     ],
+     [
+      "CS 3790",
+      "MATH 7012",
+      "PSYC 1101"
+     ]
+    ],
+    "top1_crns": [
+     "83083",
+     "85619",
+     "88515"
+    ],
+    "my_gpa": 3.495433696872103,
+    "my_gpa_sections": 3,
+    "their_gpa": 3.3814914318093425,
+    "their_gpa_sections": 3,
+    "my_conflicts": 0,
+    "their_conflicts": 0,
+    "note": ""
+   },
+   {
+    "student_id": "S006",
+    "their_courses": [
+     "CS 4392",
+     "MATH 4317",
+     "MATH 8305"
+    ],
+    "their_crns": [
+     "81063",
+     "85973",
+     "94040"
+    ],
+    "their_credits": 8.0,
+    "course_hit_rank": null,
+    "section_hit_rank": null,
+    "top_course_sets": [
+     [
+      "CS 3790",
+      "CS 6452",
+      "PSYC 1101"
+     ],
+     [
+      "CS 6452",
+      "MATH 7012",
+      "PSYC 1101"
+     ],
+     [
+      "CS 6452",
+      "PHYS 7147",
+      "PSYC 1101"
+     ],
+     [
+      "CS 3790",
+      "HIST 2111",
+      "PSYC 1101"
+     ],
+     [
+      "CS 3790",
+      "MATH 7012",
+      "PSYC 1101"
+     ]
+    ],
+    "top1_crns": [
+     "83083",
+     "85619",
+     "88515"
+    ],
+    "my_gpa": 3.495433696872103,
+    "my_gpa_sections": 3,
+    "their_gpa": 3.448210293486101,
+    "their_gpa_sections": 3,
+    "my_conflicts": 0,
+    "their_conflicts": 0,
+    "note": ""
+   },
+   {
+    "student_id": "S007",
+    "their_courses": [
+     "CS 1332",
+     "CS 8803",
+     "LMC 3403",
+     "PSYC 1101"
+    ],
+    "their_crns": [
+     "92517",
+     "94346",
+     "94716",
+     "95212"
+    ],
+    "their_credits": 12.0,
+    "course_hit_rank": null,
+    "section_hit_rank": null,
+    "top_course_sets": [
+     [
+      "CS 6452",
+      "LMC 6753",
+      "MATH 7012",
+      "MATH 8803",
+      "PSYC 1101"
+     ],
+     [
+      "CS 6452",
+      "ENGL 1101",
+      "LMC 6753",
+      "MATH 7012",
+      "PSYC 1101"
+     ],
+     [
+      "CS 3790",
+      "CS 6452",
+      "MATH 7012",
+      "PSYC 1101"
+     ],
+     [
+      "CS 6452",
+      "LMC 6753",
+      "MATH 8803",
+      "PHYS 7147",
+      "PSYC 1101"
+     ],
+     [
+      "CS 6452",
+      "ENGL 1101",
+      "LMC 6753",
+      "PHYS 7147",
+      "PSYC 1101"
+     ]
+    ],
+    "top1_crns": [
+     "83083",
+     "87347",
+     "88515",
+     "94118",
+     "95026"
+    ],
+    "my_gpa": 3.1865307038850568,
+    "my_gpa_sections": 5,
+    "their_gpa": 3.063907259110718,
+    "their_gpa_sections": 4,
+    "my_conflicts": 0,
+    "their_conflicts": 0,
+    "note": ""
+   },
+   {
+    "student_id": "S008",
+    "their_courses": [
+     "CS 3237",
+     "CS 3790",
+     "CS 8803",
+     "MATH 4107"
+    ],
+    "their_crns": [
+     "85619",
+     "89268",
+     "90501",
+     "92728"
+    ],
+    "their_credits": 12.0,
+    "course_hit_rank": null,
+    "section_hit_rank": null,
+    "top_course_sets": [
+     [
+      "CS 6452",
+      "LMC 6753",
+      "MATH 7012",
+      "MATH 8803",
+      "PSYC 1101"
+     ],
+     [
+      "CS 6452",
+      "ENGL 1101",
+      "LMC 6753",
+      "MATH 7012",
+      "PSYC 1101"
+     ],
+     [
+      "CS 3790",
+      "CS 6452",
+      "MATH 7012",
+      "PSYC 1101"
+     ],
+     [
+      "CS 6452",
+      "LMC 6753",
+      "MATH 8803",
+      "PHYS 7147",
+      "PSYC 1101"
+     ],
+     [
+      "CS 6452",
+      "ENGL 1101",
+      "LMC 6753",
+      "PHYS 7147",
+      "PSYC 1101"
+     ]
+    ],
+    "top1_crns": [
+     "83083",
+     "87347",
+     "88515",
+     "94118",
+     "95026"
+    ],
+    "my_gpa": 3.1865307038850568,
+    "my_gpa_sections": 5,
+    "their_gpa": 3.1702812046957445,
+    "their_gpa_sections": 4,
+    "my_conflicts": 0,
+    "their_conflicts": 0,
+    "note": ""
+   },
+   {
+    "student_id": "S009",
+    "their_courses": [
+     "CS 7641",
+     "MATH 3406",
+     "PHYS 4604"
+    ],
+    "their_crns": [
+     "85391",
+     "94081",
+     "94323"
+    ],
+    "their_credits": 7.0,
+    "course_hit_rank": null,
+    "section_hit_rank": null,
+    "top_course_sets": [
+     [
+      "CS 6452",
+      "LMC 6753",
+      "PSYC 1101"
+     ],
+     [
+      "HIST 2111",
+      "LMC 6753",
+      "PSYC 1101"
+     ],
+     [
+      "LMC 6753",
+      "MATH 7012",
+      "PSYC 1101"
+     ],
+     [
+      "CS 6452",
+      "PSYC 1101"
+     ],
+     [
+      "CS 6452",
+      "LMC 6753",
+      "MATH 7012"
+     ]
+    ],
+    "top1_crns": [
+     "83083",
+     "87347",
+     "88515"
+    ],
+    "my_gpa": 3.383959699530729,
+    "my_gpa_sections": 3,
+    "their_gpa": 3.1705802469135804,
+    "their_gpa_sections": 3,
+    "my_conflicts": 0,
+    "their_conflicts": 0,
+    "note": ""
+   },
+   {
+    "student_id": "S010",
+    "their_courses": [
+     "CS 4010",
+     "CS 4392",
+     "CS 6726",
+     "ECON 7022",
+     "ENGL 1102",
+     "LMC 3206",
+     "LMC 3403",
+     "MATH 1499",
+     "MATH 4441",
+     "MATH 4581",
+     "MATH 4803",
+     "MATH 8305",
+     "MATH 8803",
+     "PHYS 4247",
+     "PHYS 4604",
+     "PSYC 8080"
+    ],
+    "their_crns": [
+     "81065",
+     "82579",
+     "83721",
+     "83757",
+     "84247",
+     "85973",
+     "89633",
+     "90615",
+     "90843",
+     "92101",
+     "92569",
+     "92684",
+     "94040",
+     "94323",
+     "94568",
+     "95026"
+    ],
+    "their_credits": 43.0,
+    "course_hit_rank": null,
+    "section_hit_rank": null,
+    "top_course_sets": [
+     [
+      "CS 3790",
+      "CS 4010",
+      "CS 6452",
+      "CS 6726",
+      "CS 8803",
+      "ECON 4351",
+      "ENGL 1101",
+      "ENGL 1102",
+      "MATH 4581",
+      "MATH 4803",
+      "MATH 7012",
+      "MATH 8803",
+      "PSYC 1101",
+      "PSYC 8080"
+     ],
+     [
+      "CS 3790",
+      "CS 4010",
+      "CS 6452",
+      "CS 6726",
+      "CS 8803",
+      "ECON 4351",
+      "ENGL 1101",
+      "ENGL 1102",
+      "MATH 4581",
+      "MATH 4803",
+      "MATH 7012",
+      "MATH 8305",
+      "MATH 8803",
+      "PSYC 1101",
+      "PSYC 8080"
+     ],
+     [
+      "CS 3790",
+      "CS 4010",
+      "CS 6452",
+      "CS 6726",
+      "CS 8803",
+      "ENGL 1101",
+      "ENGL 1102",
+      "HIST 2111",
+      "MATH 4581",
+      "MATH 4803",
+      "MATH 7012",
+      "MATH 8803",
+      "PSYC 1101",
+      "PSYC 8080"
+     ],
+     [
+      "CS 3790",
+      "CS 4010",
+      "CS 6452",
+      "CS 6726",
+      "CS 8803",
+      "ENGL 1101",
+      "ENGL 1102",
+      "MATH 4581",
+      "MATH 4803",
+      "MATH 7012",
+      "MATH 8803",
+      "PSYC 1101",
+      "PSYC 3005",
+      "PSYC 8080"
+     ],
+     [
+      "CS 3790",
+      "CS 4010",
+      "CS 6452",
+      "CS 6726",
+      "CS 8803",
+      "ENGL 1101",
+      "ENGL 1102",
+      "HIST 2111",
+      "MATH 4581",
+      "MATH 4803",
+      "MATH 7012",
+      "MATH 8305",
+      "MATH 8803",
+      "PSYC 1101",
+      "PSYC 8080"
+     ]
+    ],
+    "top1_crns": [
+     "82579",
+     "83083",
+     "84247",
+     "85619",
+     "88515",
+     "89430",
+     "89633",
+     "90615",
+     "90647",
+     "90843",
+     "94118",
+     "94568",
+     "95026",
+     "95212"
+    ],
+    "my_gpa": 3.3674786670527808,
+    "my_gpa_sections": 14,
+    "their_gpa": 3.289305639943784,
+    "their_gpa_sections": 16,
+    "my_conflicts": 0,
+    "their_conflicts": 0,
+    "note": ""
+   },
+   {
+    "student_id": "S011",
+    "their_courses": [
+     "CS 4400",
+     "LMC 3406",
+     "MATH 3012"
+    ],
+    "their_crns": [
+     "80167",
+     "83558",
+     "88894"
+    ],
+    "their_credits": 9.0,
+    "course_hit_rank": null,
+    "section_hit_rank": null,
+    "top_course_sets": [
+     [
+      "CS 6452",
+      "LMC 6753",
+      "MATH 7012",
+      "PSYC 1101"
+     ],
+     [
+      "CS 6452",
+      "LMC 6753",
+      "PHYS 7147",
+      "PSYC 1101"
+     ],
+     [
+      "CS 6452",
+      "LMC 6753",
+      "MATH 8803",
+      "PSYC 1101"
+     ],
+     [
+      "CS 6452",
+      "ENGL 1101",
+      "LMC 6753",
+      "PSYC 1101"
+     ],
+     [
+      "CS 3790",
+      "CS 6452",
+      "PSYC 1101"
+     ]
+    ],
+    "top1_crns": [
+     "83083",
+     "87347",
+     "88515",
+     "94118"
+    ],
+    "my_gpa": 3.2728480932321173,
+    "my_gpa_sections": 4,
+    "their_gpa": 3.111284172191309,
+    "their_gpa_sections": 3,
+    "my_conflicts": 0,
+    "their_conflicts": 0,
+    "note": ""
+   }
+  ],
+  "skipped": {}
+ }
+}

@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Planner section scores",
+  "version": "0.1.0",
+  "description": "Shows your planner's section quality and difficulty scores on the registrar's class search. Optional, opt-in ratings from sites you already use are fetched in your own browser and never leave it.",
+  "minimum_chrome_version": "116",
+  "permissions": ["storage"],
+  "host_permissions": [
+    "https://registration.banner.gatech.edu/StudentRegistrationSsb/ssb/classSearch/*",
+    "http://localhost:3000/api/scores*"
+  ],
+  "optional_host_permissions": [
+    "https://www.ratemyprofessors.com/*"
+  ],
+  "background": { "service_worker": "background.js", "type": "module" },
+  "content_scripts": [
+    {
+      "matches": ["https://registration.banner.gatech.edu/StudentRegistrationSsb/ssb/classSearch/*"],
+      "js": ["content/banner.js"],
+      "css": ["content/badge.css"],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": { "default_popup": "popup.html", "default_title": "Planner scores settings" },
+  "icons": { "16": "icons/icon16.png", "48": "icons/icon48.png", "128": "icons/icon128.png" }
+}

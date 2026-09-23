@@ -1,0 +1,8 @@
+<!doctype html><meta charset="utf-8"><title>Planner scores</title>
+<style>body{font:14px system-ui,sans-serif;width:320px;margin:0;padding:14px;color:#17171a}label{display:flex;gap:.6em;align-items:flex-start;margin:.7em 0}small{color:#5f6368}input[type=text]{width:100%;box-sizing:border-box;padding:.4em}h1{font-size:15px;margin:0 0 .5em}</style>
+<h1>Planner section scores</h1>
+<label><input type="checkbox" id="own"> <span>Show my planner scores on class search<br><small>Looks up CRNs on the page against your planner API. Only CRNs are sent.</small></span></label>
+<label><input type="checkbox" id="tp"> <span>Also show ratings from <span id="tpName">RateMyProfessors</span> (opt-in)<br><small>Fetched in this browser only when you hover or click a badge, one at a time. Shown on screen, kept in memory for this browser session, never sent to the planner or anyone else.</small></span></label>
+<label><span>Planner API<br><input type="text" id="api"></span></label>
+<p><small><a href="PRIVACY.md" target="_blank">What this extension does with data</a></small></p>
+<script src="popup.js"></script>

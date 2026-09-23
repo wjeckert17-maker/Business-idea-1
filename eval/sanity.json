@@ -1,0 +1,30 @@
+{
+ "sections_with_both": 72,
+ "r_raw_rating_vs_gpa": 0.5460768122075357,
+ "r_adjusted_quality_vs_gpa": -0.022759448899206877,
+ "r_would_take_again_raw_vs_gpa": 0.5460113016998515,
+ "leniency_r_squared": 0.28070073005284524,
+ "verdict": "adjustment works: raw r=0.55 \u2192 adjusted r=-0.02",
+ "adjustment_ok": true,
+ "skew": [
+  {
+   "attribute": "group",
+   "group": "A",
+   "n": 36,
+   "mean_quality": 0.16646036637917172,
+   "mean_difficulty": 47.91504223521767,
+   "quality_delta_vs_rest": 0.33292073275834344,
+   "p_value_quality": 0.3538230884557721
+  },
+  {
+   "attribute": "group",
+   "group": "B",
+   "n": 36,
+   "mean_quality": -0.16646036637917172,
+   "mean_difficulty": 52.08495776478232,
+   "quality_delta_vs_rest": -0.33292073275834344,
+   "p_value_quality": 0.36031984007996004
+  }
+ ],
+ "skew_note": "skew audit over 72 labelled sections"
+}
