@@ -134,3 +134,7 @@ matcher_eval.md  people_eval.md  evaluation reports for the graph engine
 4. `evalx` has run only on synthetic students; the real transcripts, audits and registrations are yours to supply.
 5. The extension's rating-site adapter targets a site whose terms restrict automated access; confirm with counsel
    before enabling it, and note it is isolated to one file.
+
+## License
+
+Proprietary — all rights reserved. See `LICENSE`. Bundled dependencies and cached public data sets keep their own terms.

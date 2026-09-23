@@ -1,0 +1,28 @@
+Copyright (c) 2026 William Eckert. All rights reserved.
+
+This software and its accompanying documentation, data files, designs and
+evaluation reports (the "Software") are the proprietary property of the
+copyright holder.
+
+No license is granted. You may not use, copy, modify, merge, publish,
+distribute, sublicense, sell, host as a service, or create derivative works
+from the Software, in whole or in part, without the prior written permission
+of the copyright holder.
+
+Viewing the source on the hosting platform where the copyright holder has
+published it does not grant any rights beyond those the platform's terms of
+service require the copyright holder to grant.
+
+Third-party components bundled by package managers (see pyproject.toml and
+web/package.json) remain under their own licenses. Public data sets cached or
+referenced by the Software (ASSIST, the Florida SCNS inventory, the Texas
+TCCNS matrix, C-ID approvals, institutional catalogs and section feeds) remain
+subject to the terms of their publishers.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY ARISING
+FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OF THE SOFTWARE.
+
+Contact: wjeckert17@icloud.com

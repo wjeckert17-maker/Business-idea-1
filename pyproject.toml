@@ -3,6 +3,7 @@ name = "course-ingest"
 version = "0.1.0"
 description = "Pull a term of course sections from a university class-search system into the course-planning schema."
 requires-python = ">=3.9"
+license = { text = "Proprietary. All rights reserved." }
 dependencies = [
   "requests>=2.31",
   "psycopg[binary]>=3.1",
